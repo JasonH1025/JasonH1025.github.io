@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#memo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.memo-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.memo-item-content {
+  margin-top: 5px;
+}
+
+.memo-item-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.memo-item-buttons button {
+  margin-left: 5px;
+}
+
+#memo-form {
+  margin-bottom: 20px;
+}
+
+#memo-form input, #memo-form button {
+  margin-right: 10px;
+}
