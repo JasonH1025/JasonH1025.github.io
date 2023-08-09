@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Jason Hsieh - Website</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 <link rel="stylesheet" href="style.css">
 
@@ -23,12 +23,13 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarButtons">          
           <ul class="nav navbar-nav navbar-right">
-            <li id="navAbout" class="btn navbar-btn navActive">關於我</li>
-            <li id="navServices" class="btn navbar-btn">作品集</li>
-            <li id="navContact" class="btn navbar-btn">聯絡方式</li>
-            <a href="calculator/index.html" target="_blank" class="btn navbar-btn">計算機</li>
-            <a href="chatbot/index.html" target="_blank" class="btn navbar-btn">機器人</li>
-            <a href="memo/index.html" target="_blank" class="btn navbar-btn">備忘錄</li>
+            <li id="navAbout"><a><span class="btn navbar-btn LinkChange navActive">關於我</span></a></li>
+            <li id="navServices"><a><span class="btn navbar-btn LinkChange">作品集</span></a></li>
+            <li id="navContact"><a><span class="btn navbar-btn LinkChange">聯絡方式</span></a></li>
+            <li id="calculator"><a href="calculator/index.html" target="_blank"><span class="btn navbar-btn LinkChange">計算機</span></a></li>
+            <li id="chatbot"><a href="chatbot/index.html" target="_blank"><span class="btn navbar-btn LinkChange">機器人</span></a></li>
+            <li id="memo"><a href="memo/index.html" target="_blank"><span class="btn navbar-btn LinkChange">備忘錄</span></a></li>
+            <li id="memo"><a href="aabb/index.html" target="_blank"><span class="btn navbar-btn LinkChange">小遊戲</span></a></li>
           </ul>
         </div>
       </div>
@@ -56,7 +57,7 @@
             <div class="col-md-9">            
               <h2>智慧專業 溫暖友善</h2>
               <hr />
-              <p>我們的精神是專業、智能和友善的結合。我們以專業的知識和技能為基礎，提供優質的產品和服務。同時，我們注重智能創新，不斷尋找新的解決方案和提升效率的方法。最重要的是，我們以友善的態度對待客戶和同事，建立信任和共融，共同成長。</p>
+              <p style="font-size:18px">在一個神奇的科技城市，住著三位特殊的鄰居：<br>專業的資訊科學家普羅，<br>智能的機器小夥伴賽智，<br>以及友善的創新咖啡師艾莉。<br>一天，他們決定合作舉辦一場奇幻派對。<br>普羅負責數據分析，確保每位客人都能得到最佳的派對體驗；賽智則操控家中的智能裝置，讓房間瞬間變成令人驚艷的派對場地；而艾莉則親自調製特色飲品，以她的友善笑容和精湛技藝，讓每位客人都感受到溫馨的款待。<br>派對舉辦成功後，三人合掌笑著，因為專業、智能和友善的結合，讓這場派對成為了城市中的一個美好傳說。</p>
             </div>
           </div>
           <div class="col-md-3"></div>          
@@ -72,39 +73,44 @@
     </div>
     <div id="serviceBlocks" class="row">
       <div class="container">
-        <div class="serviceBlock col-md-4">
-          <h1>作品一</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <div class="serviceBlock col-md-3">
+          <h1>簡易計算機</h1>
+          <img src="img/icon_calculator.png" />
+          <p>計算機是硬體工具，<br>而人工智慧（AI）是軟體技術，<br>兩者緊密結合。<br>AI運用計算機處理能力，模仿人類智能，<br>計算機提供運算速度，<br>AI提供智能決策，<br>共同推動科技進步，<br>應用於各行各業，改變世界。</p>
         </div>
-        <div class="serviceBlock col-md-4">
-          <h1>作品二</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <div class="serviceBlock col-md-3">
+          <h1>聊天機器人</h1>
+          <img src="img/icon_chatbot.png" />
+          <p>聊天機器人是AI的實際運用之一，<br>融合自然語言處理技術，<br>能與人類進行對話。<br>AI賦予了聊天機器人<br>理解、回應、學習的能力，<br>使其逐漸逼近真人對話，<br>用於客服、教育、娛樂等領域，<br>提供即時幫助與互動體驗。</p>
         </div>
-        <div class="serviceBlock col-md-4">
-          <h1>作品三</h1>
-          <img src="https://cdn0.iconfinder.com/data/icons/thinico/88/thinico-17-512.png" />
-          <p>We do things! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <div class="serviceBlock col-md-3">
+          <h1>實用備忘錄</h1>
+          <img src="img/icon_memo.png" />
+          <p>備忘錄透過AI技術，<br>智能化整理、分析用戶的記事，<br>提供個性化的提醒與建議。<br>AI能理解內容、梳理重點，<br>自動生成摘要與整理，<br>提升工作效率，<br>讓備忘錄成為更智能的協助工具，<br>助您更有效地管理事務。</p>
+        </div>
+        <div class="serviceBlock col-md-3">
+          <h1>經典小遊戲</h1>
+          <img src="img/icon_aabb.png" />
+          <p>經典的益智小遊戲，<br>透過AI技術煥發新生，<br>AI可優化遊戲體驗，<br>智慧對手提供挑戰，<br>甚至創造出更多驚喜玩法，<br>使得經典遊戲更具挑戰與趣味，<br>融合科技與娛樂，<br>將經典融入未來。</p>
         </div>
       </div>
     </div>
 <!--  Contact form      -->
       <div id="phoneContact" class="phoneContact row">
         <div class="container">
-          <h2>CONTACT US BY PHONE TODAY! CALL 1-555-555-5555</h2>
+          <h2>「聯絡我們，不只是傳訊息，更是串連心意的橋樑！」<br><br> 歡迎來電 0912-345-678</h2>
         </div>
       </div> 
       <div class="container">               
         <div id="contactRow" class="contactForm row">
-          <h2>CONTACT FORM</h2>
+          <h2>讓我們不再失聯，讓聯絡方式像魔法一樣簡單！</h2>
           <hr />
-          <h3>Enter you contact informaiton and message below.</h3>
+          <h3>「留下您的資訊～彷彿會有個小精靈在您耳邊聽候！」</h3>
           <form name="contactForm" class="form-group" action="#" method="POST">
-            <input id="formName" name="name" class="inputInline form-control" type="text" placeholder="Name" required />
-            <input id="formEmail" name="email" class="inputInline form-control" type="email" placeholder="Email" required />
-            <textarea id="formMessage" name="message" class="form-control" type="text" placeholder="Message" required></textarea>
-            <input name="submit" class="bannerBtn" type="submit" value="SEND MESSAGE" />
+            <input id="formName" name="name" class="inputInline form-control" type="text" placeholder="您的大名（中、英文不拘，總要知道如何稱呼您...）" required />
+            <input id="formEmail" name="email" class="inputInline form-control" type="email" placeholder="您的Email（很重要喔！別讓我們之間...斷了線）" required />
+            <textarea id="formMessage" name="message" class="form-control" type="text" placeholder="您的悄悄話（長短不拘，既然來了，總有些話想對我說吧）" required></textarea>
+            <input name="submit" class="bannerBtn" type="submit" value="立即飛哥傳書" />
           </form>
         </div>        
       </div>
@@ -112,19 +118,19 @@
     <div id="contactInfo" class="row">
       <div class="container">
         <div class="contactStack col-md-4">
-          <h4>ADDRESS</h4>
-          <p>123 Test Avenue</p>
-          <p>Charlotte, NC 28216</p>
+          <h4>我們在這裡...</h4>
+          <p>屏東縣新園鄉</p>
+          <p>烏龍村5656號</p>
         </div>
         <div class="contactStack col-md-4">
-          <h4>OPERATION HOURS</h4>
-          <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-          <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+          <h4>何時會出現...</h4>
+          <p>周一至週五: 00:00 AM - 看心情而定</p>
+          <p>周末及假日: 00:00 AM - 幾乎找不到</p>
         </div>
         <div class="contactStack col-md-4">
-          <h4>CONTACT INFO</h4>
-          <p>Phone: 555-555-5555</p>
-          <p>Email: email@Leying Studio.com</p>
+          <h4>如何找到我們</h4>
+          <p>電話: 0912-345-678</p>
+          <p>Email: jason@AI.com</p>
         </div>
       </div>
     </div>
@@ -136,7 +142,7 @@
           <a href="#" class="social"><img id="twitter"></a>
           <a href="#" class="social"><img id="linkedin"></a>
         </div>
-        <p>&copy; 2017 Leying Studio. All rights reserved. Designed and created by Mitchell Console</p>
+        <p>&copy; 2023 Leying Studio. All rights reserved. Designed and created by Jason Hsieh</p>
       </div>
     </div>
   </body>
